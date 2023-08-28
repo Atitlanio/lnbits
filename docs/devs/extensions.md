@@ -33,7 +33,7 @@ Adding new dependencies
 
 DO NOT ADD NEW DEPENDENCIES. Try to use the dependencies that are availabe in `pyproject.toml`. Getting the LNbits project to accept a new dependency is time consuming and uncertain, and may result in your extension NOT being made available to others.
 
-If for some reason your extensions must have a new python package to work, and its nees are not met in `pyproject.toml`, you can add a new package using `poerty`:
+If for some reason your extensions must have a new python package to work, and its nees are not met in `pyproject.toml`, you can add a new package using `poetry`:
 
 ```sh
 $ poetry add <package>
