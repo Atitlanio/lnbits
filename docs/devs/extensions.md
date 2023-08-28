@@ -40,7 +40,7 @@ $ poetry add <package>
 ```
 
 **But we need an extra step to make sure LNbits doesn't break in production.**
-Dependencies need to be added to `pyproject.toml`, then tested by running on `poetry` compatability can be tested with `nix build .#checks.x86_64-linux.vmTest`.
+Dependencies need to be added to `pyproject.toml`, then tested by running on `poetry` compatibility can be tested with `nix build .#checks.x86_64-linux.vmTest`.
 
 
 SQLite to PostgreSQL migration
